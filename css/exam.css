@@ -1,0 +1,97 @@
+.question {
+  display: none;
+}
+.inActive {
+  display: block;
+}
+#form1 {
+  text-align: center;
+  background-color: rgb(141, 178, 233);
+  width: 500px;
+  height: 150px;
+  /* line-height: 20px; */
+  margin-left: 370px;
+  font-family: cursive;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px;
+  padding: 25px;
+  border: 2px inset rgb(55, 87, 146);
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+#container {
+  /* text-align: center; */
+  background-color: rgb(141, 178, 233);
+  width: 500px;
+  height: 180px;
+  /* line-height: 20px; */
+  margin-left: 370px;
+  font-family: cursive;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px;
+  padding: 25px;
+  border: 2px inset rgb(55, 87, 146);
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+#results {
+  text-align: center;
+  background-color: rgb(141, 178, 233);
+  width: 500px;
+  height: 50px;
+  /* line-height: 20px; */
+  margin-left: 370px;
+  font-family: cursive;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px;
+  padding: 25px;
+  border: 2px inset rgb(55, 87, 146);
+  border-radius: 10%;
+  cursor: pointer;
+}
+button {
+  border: 3px inset rgb(55, 87, 146);
+  border-radius: 8px;
+  text-align: center;
+  font-family: cursive;
+  text-shadow: 2px 2px 7px;
+  background-color: rgb(55, 87, 146);
+}
+
+button:hover {
+  border: 8px inset rgb(55, 87, 146);
+  border-radius: 8px;
+}
+body {
+  font-family: cursive;
+}
+#markdiv {
+  /* text-align: center; */
+  background-color: rgb(141, 178, 233);
+  position: fixed;
+  right: 100px;
+   top: 245px; 
+  /* top :50px; */
+  width: 150px;
+  height: 190px;
+  /* line-height: 20px; */
+  font-family: cursive;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px;
+  padding: 10px;
+  border: 2px inset rgb(55, 87, 146);
+  border-radius: 10%;
+  cursor: pointer;
+  /* display: inline-block; */
+}
+ #markul li{
+  display: inline-block;
+}
+.lii{
+  padding: 3px;
+} 

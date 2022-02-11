@@ -1,0 +1,53 @@
+<html>
+<head >
+    <title>exam</title>
+    <link rel="stylesheet" href="css/exam.css">
+</head>
+
+<body onload="f1()">
+    <form id="form1" runat="server">
+        <div>
+            <table width="100%" align="center">
+                <tr>
+                    <td colspan="2">
+                        <center><h1><b>timer</b></h1></center>
+                        <!-- <img src="888.png"> -->
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center><div id="starttime"></div></center>
+                        <hr>
+                        <center><div id="endtime"></div>
+
+                            <div id="showtime"></div></center>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+<div id="container">
+    <div id="quiz"></div>
+    <!-- <div id="markedList"></div> -->
+    <div id="answers" style="display: none;"></div>
+</div>
+    <br>
+    <div id="results">
+        <button id="submit">Submit</button>
+        <button id="preButton">Previous Question</button>
+        <button id="nextButton">Next Question</button>
+        <button class ="markButton">Mark</button> 
+        <br><br><br>
+        <div id="markdiv">
+            <h2>marker</h2>
+            <hr>
+            <ul id="markul"></ul></div>
+    </div>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/exam.js"></script>
+  
+
+</body>
+
+</html>

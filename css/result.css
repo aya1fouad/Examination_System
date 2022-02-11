@@ -1,0 +1,35 @@
+body{
+    color:black;
+    
+    padding-left: 60px;
+    margin-left: 0px;
+    margin-top: 8%;
+    padding-top: 60px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    margin-right: 100px;
+}
+#divbody{
+    background-image: url("imgs/goethe-exams.png");
+    background-size:40%; 
+    background-repeat: no-repeat;
+    background-position: right;
+    size: 100%;
+}
+
+#mydiv{
+    text-align: center;
+    background-color:  rgb(141, 178, 233);
+     width: 500px;
+     height: 200px;
+     font-family: cursive;
+     font-size: 25px;
+     text-shadow: 1px 1px 5px ;
+     padding: 25px;
+     border: 6px inset rgb(55, 87, 146);
+     border-radius: 50px;
+     cursor: pointer;
+     margin-right: 85%;
+     opacity: 0.9;
+     
+}

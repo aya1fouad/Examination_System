@@ -1,0 +1,57 @@
+#myform{
+    /* background-color: rgb(182, 179, 179); */
+    width: 520px;
+    height: 500px;
+    /* line-height: 20px; */
+    font-family: cursive;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px ;
+    padding: 25px;
+    border: 2px inset rgb(55, 87, 146);
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: rgb(177, 205, 247);
+    background-size: cover; 
+    opacity: 0.8;
+  margin-right: 85%;
+}
+
+ #mydiv{
+    background-image: url("imgs/goethe-exams.png");
+    background-size:50%; 
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 60px;
+    margin-left: 0px;
+    /* background-repeat: no-repeat; 
+    background-color: rgb(141, 178, 233);*/
+    /* background-size: cover; */
+    /* opacity: 0.6; */
+
+    padding-top: 60px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+} 
+#submit {
+    border: 3px inset rgb(55, 87, 146);
+    border-radius: 8px;
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 2px 2px 7px ;
+    background-color:  rgb(141, 178, 233);
+
+}
+#submit:hover{
+    border: 8px inset rgb(55, 87, 146);
+    border-radius: 8px;
+}
+  span{
+    color: red;
+    display: block;
+} 
+input{
+    border-radius: 8px;
+}
+input:hover{
+    border: 5px inset rgb(55, 87, 146);
+}

@@ -1,0 +1,35 @@
+body{
+    color:black;
+
+}
+#divbody{
+width: 500px;
+height: 500px;
+background-image: url("imgs/time-out-1.png");
+background-size:70%; 
+background-repeat: no-repeat;
+background-position: top;
+margin-left: 30%;
+margin-top: 4%;
+padding-top: 30px;
+}
+#mydiv{
+    text-align: center;
+    background-color:  rgb(141, 178, 233);
+     width: 500px;
+     height: 200px;
+     margin-top: 100px;
+     /* line-height: 20px; */
+     font-family: cursive;
+     font-size: 25px;
+     text-shadow: 1px 1px 5px ;
+     padding: 25px;
+     border: 6px inset rgb(55, 87, 146);
+     border-radius: 50px;
+     cursor: pointer;
+     opacity: 0.8;
+}
+h1{
+    color: red;
+    text-shadow: 1px 1px 5px ;
+}

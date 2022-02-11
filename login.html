@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #myform {
+            /* background-color: rgb(182, 179, 179); */
+            width: 400px;
+            height: 130px;
+            line-height: 20px;
+            font-family: cursive;
+            font-size: 20px;
+            text-shadow: 1px 1px 5px;
+            padding: 30px;
+            text-align: center;
+            margin-top: 80px;
+            border: 6px inset rgb(55, 87, 146);
+            border-radius: 10%;
+            cursor: pointer;
+            background-color: rgb(177, 205, 247);
+            opacity: 0.8;
+            margin-right: 85%;
+
+        }
+
+        #mydiv {
+            /* background-color: rgb(63, 113, 206); */
+            /* background-color: rgb(49, 141, 87);  */
+            width: 100%;
+            height: 200%;
+            padding: 100px;
+        }
+
+        #submit {
+            border: 3px inset rgb(55, 87, 146);
+            border-radius: 8px;
+            margin-left: 150px;
+            text-align: center;
+            font-family: cursive;
+            text-shadow: 2px 2px 7px;
+            background-color: rgb(141, 178, 233);
+
+        }
+
+        #submit:hover {
+            border: 8px inset rgb(55, 87, 146);
+            border-radius: 8px;
+        }
+
+        span {
+            color: red;
+        }
+
+        body {
+            background-image: url("goethe-exams.png");
+            background-size:50%; 
+            background-repeat: no-repeat;
+            background-position: right;
+            padding-left: 60px;
+            margin-left: 0px;
+            padding-top: 60px;
+            padding-right: 0px;
+            padding-bottom: 40px;
+        }
+
+        input {
+            border-radius: 8px;
+        }
+
+        input:hover {
+            border: 5px inset rgb(55, 87, 146);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mydiv">
+        <form id="myform" method="GET" onsubmit="preventfalse()">
+            Email : <input type="text" name="logemail" id="logemail" />
+            <span id="semail"></span>
+            <br><br>
+            Password : <input type="password" name="logpassword" id="logpassword" />
+            <span id="spassword"></span>
+            <br><br>
+            <input type="submit" value="Sign in" id="submit">
+        </form>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>
